@@ -1,0 +1,18 @@
+.contact {
+  margin-left: 250px;
+}
+
+.contact h1 {
+  margin: 2rem;
+}
+
+.text {
+    margin: 2rem;
+    font-size: 18px;
+  }  
+
+@media (max-width: 920px) {
+  .contact {
+    margin-left: 0;
+  }
+}

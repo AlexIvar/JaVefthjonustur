@@ -1,0 +1,19 @@
+.home {
+  margin-left: 250px;
+}
+
+.home h1 {
+  margin: 2rem;
+}
+
+.welcome-text {
+  margin: 2rem;
+  font-size: 18px;
+}
+
+
+@media (max-width: 920px) {
+    .home {
+      margin-left: 0;
+    }
+  }

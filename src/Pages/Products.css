@@ -1,0 +1,41 @@
+.products {
+  margin-left: 250px;
+}
+
+.products p {
+  display: flex;
+  justify-content: center;
+}
+
+.products h1 {
+  margin: 2rem;
+}
+
+#product-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.OuterContainer {
+  width: 100%;
+}
+
+@media (max-width: 920px) {
+  .products {
+    margin-left: 0;
+  }
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
