@@ -7,7 +7,7 @@ import "./Contact.css";
 function Contact() {
   return (
     <div className="contact">
-      <h1>Hafður samband!</h1>
+      <h1>Hafðu samband!</h1>
       <div className="text">
         <p>
           Ég vil þakka fyrir mig og hlakka til að heyra í ykkur með áframhaldið!
